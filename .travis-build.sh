@@ -11,7 +11,7 @@ set -e
 ## Short version, intended to be used when triggering downstream Travis jobs.
 echo "Should next trigger downstream jobs."
 true
-
+#
 ## Build Checker Framework
 (cd $ROOT && git clone --depth 1 -b lub https://github.com/smillst/checker-framework.git)
 # This also builds annotation-tools and jsr308-langtools
