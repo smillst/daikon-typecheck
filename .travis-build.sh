@@ -4,7 +4,6 @@ ROOT=$TRAVIS_BUILD_DIR/..
 # Required argument $1 is one of:
 #   formatter, interning, lock, nullness, regex, signature, nothing
 
-
 # Fail the whole script if any command fails
 set -e
 
