@@ -13,6 +13,7 @@ true
 #
 ## Build Checker Framework
 (cd $ROOT && git clone --depth 1 -b master https://github.com/typetools/checker-framework.git)
+export TRAVIS_REPO_SLUG=$TRAVIS_REPO_SLUG
 # This also builds annotation-tools and jsr308-langtools
 (cd $ROOT/checker-framework/ && ./.travis-build-without-test.sh)
 export CHECKERFRAMEWORK=$ROOT/checker-framework
