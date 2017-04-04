@@ -50,8 +50,8 @@ elif [[ "$1" == "regex" ]]; then
   make -C $ROOT/daikon/java check-regex
 elif [[ "$1" == "signature" ]]; then
   make -C $ROOT/daikon/java check-signature
-elif [[ "$1" == "value" ]]; then
-  make -C $ROOT/daikon/java check-value
+elif [[ "$1" == "index" ]]; then
+  make -C $ROOT/daikon/java check-index
 elif [[ "$1" == "nothing" ]]; then
   true
 else
